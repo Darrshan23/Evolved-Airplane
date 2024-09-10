@@ -1,0 +1,47 @@
+1. Home page
+    a. Header
+        - Buy ticket (Plan trip)
+        - Check-in
+        - Flight status 
+        - My Purchases
+        - Support
+        - Logo
+        - Login/signup
+
+    b. Content
+        - Slider (Showcasing promotion)
+        - Choose time, date, location
+        - Promotion & Notices
+        - 
+
+    c. Footer
+        (Travel information)
+        - FAQ
+        - Awards
+        - Lost & Found
+        - Seat Options
+        - In-flight meals
+        - Baggage
+        - Airport & Terminals
+
+        (About Us)
+        - Feedback
+        - Careers
+        - History
+        - About Us
+
+        (Connect)
+        - FB
+        - IG
+        - YT
+
+        (Payment)
+        - Payment channels
+        - Tax invoice
+        - Fees & Charges
+        
+2. My fight Destinations - Singapore, Thailand, Indonesia, Sabah, and Sarawak.
+
+
+        
+        
