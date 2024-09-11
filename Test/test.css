@@ -1,0 +1,122 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0 20px; /* Add some padding to the body to prevent the form from touching the edges */
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; /* Make the form take up the full width */
+  max-width: 1200px; /* Optional: Set a max-width for better readability on large screens */
+  padding: 20px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  width: 100%; /* Ensure the row takes up the full width */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Make inputs and selects take up the full width */
+}
+
+.dropdown {
+  position: relative;
+  width: 100%; /* Make the dropdown take up the full width */
+}
+
+.dropdown-toggle {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%; /* Make the toggle button take up the full width */
+  text-align: left;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  width: 100%; /* Make the dropdown menu take up the full width */
+}
+
+.dropdown-menu.show {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.guest-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.guest-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.guest-controls button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.guest-controls button:hover {
+  background-color: #ddd;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}

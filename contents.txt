@@ -12,7 +12,6 @@
         - Slider (Showcasing promotion)
         - Choose time, date, location
         - Promotion & Notices
-        - 
 
     c. Footer
         (Travel information)
